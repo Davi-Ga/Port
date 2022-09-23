@@ -75,14 +75,14 @@ hr{
 }
 
 .navbar a:hover {
-    color: var(--Gray);
+    color: var(--White);
     transition-timing-function: linear;
     transition-duration: 100ms;
 }
 
 #selected{
-    color: var(--Pink);
-    background-color: var(--Black);
+    color: var(--White);
+    background-color: var(--Gray);
 }
 
 
@@ -139,6 +139,22 @@ main {
     max-height:760px;
     margin: 0%;
     margin-top: 150px;
+}
+
+.buttonprojeto{
+    background-color: var(--Gray);
+    border: none;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
 }
 
 .center {
