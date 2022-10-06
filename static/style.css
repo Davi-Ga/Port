@@ -156,12 +156,14 @@ main {
     min-height: 80vh;
     max-height:760px;
     margin: 0%;
-    margin-top: 150px;
+    padding-top: 150px;
 }
 
 .grid{
+    width: 100vw;
     display: flex;
     flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .buttonprojeto{
@@ -172,12 +174,28 @@ main {
     height: 348.31px; */
     background-color: var(--Gray);
     border: none;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    margin-left: 0%;
+    margin-right: min(30px, 5%);
     text-align: left;
     text-decoration: none;
     display: block;
     border-radius: 10px;
+    overflow: visible;
+}
+
+.margem{
+    width:auto;
+    position: relative;
+    height: auto; 
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-right: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
     overflow: visible;
 }
 
@@ -322,6 +340,12 @@ main h8 {
     margin: 0px;
 }
 
+main h9 {
+    color: var(--Pink);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
 
 Textos {
     display: flex;
@@ -348,7 +372,45 @@ img.img1{
     margin-right: auto;
 }
 
-img.notfound{
-    margin: 0px;
-    align-items: center;
+img.media{
+    width: 400px;
+    height: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
 }
+
+body { padding: 1rem; }
+
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+@media (min-width: 900px) {
+.cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+img.galeria{
+    width: 100px;
+    height: auto;
+    margin: 0%;
+}
+
+.card {
+    width: min-content;
+    height: min-content;
+    background-color: transparent;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0%;
+    display: grid;
+    gap: 1rem;
+  }
+
+  .footer{
+    background-color: var(--Pink);
+  }
