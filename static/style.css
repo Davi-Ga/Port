@@ -45,6 +45,8 @@ body {
     overflow: hidden;
 }
 
+
+
 .navbar {
     position: fixed;
     top: 0;
@@ -123,6 +125,7 @@ main {
     align-items: center;
     flex-direction: column;
     min-height: 80vh;
+    padding-top: 150px;
 }
 
 .butonpress{
@@ -214,12 +217,11 @@ main {
 }
 
 .center {
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 80vh;
-    margin: 3%;
 }
 
 .centerside img:hover {
@@ -346,6 +348,23 @@ main h9 {
     font-size: 2.5rem;
 }
 
+main h10 {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main h11 {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+main h12 {
+    color: var(--Pink);
+    font-weight: 700;
+    font-size: 5rem;
+}
 
 Textos {
     display: flex;
