@@ -28,8 +28,10 @@ section{
     width: 100%;
     height: 100vh;
     overflow: auto; 
+    overflow-x: hidden;
 
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -126,6 +128,16 @@ main {
     flex-direction: column;
     min-height: 80vh;
     padding-top: 150px;
+}
+
+.centerrosa{
+    background-color: var(--Pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 80vh;
+    padding-top: 0px;
 }
 
 .butonpress{
