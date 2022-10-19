@@ -441,7 +441,3 @@ img.galeria{
     display: grid;
     gap: 1rem;
   }
-
-  .footer{
-    background-color: var(--Pink);
-  }
