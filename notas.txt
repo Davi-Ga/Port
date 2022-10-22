@@ -1,0 +1,5 @@
+Ajustar a tag da navbar
+Separar a tag main que está dentro da tag section
+Ajustar a tag habilidades
+Refazer o CSS, algumas coisas estão sobrepostas a outras
+Ajustar a tag footer
